@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ephesis', cursive;
+}
+
+nav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex; /*los va a alinear*/
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+img{
+    display: block;
+    height: 450px;
+    object-fit: cover;
+}
+.textos{
+    width: 50%;
+    color: white;
+}
+.textos h1{
+    font-size:  30px;
+}
+.textos h2{
+    font-size:20px;
+}
+.textos a{
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 110px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
